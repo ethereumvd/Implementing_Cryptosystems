@@ -45,8 +45,3 @@ public_key_bob = generate_key(prime, primitive_root, private_key_bob)
 shared_secret_alice = calculate_shared_secret(public_key_bob, private_key_alice, prime)
 
 shared_secret_bob = calculate_shared_secret(public_key_alice, private_key_bob, prime)
-
-print("Public key of Alice:", public_key_alice)
-print("Public key of Bob:", public_key_bob)
-print("Shared secret for Alice:", shared_secret_alice)
-print("Shared secret for Bob:", shared_secret_bob)
