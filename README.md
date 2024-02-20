@@ -1,7 +1,5 @@
 ## Implementing Cryptosystems
 
-**Name - Vedant Das**
-
 This repository contains python scripts that implement :-
 
 1. **Caesar Cipher** :
